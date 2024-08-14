@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Management</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+       <div class="filter_buttons">
+        <button class="active"data-name="all">Show all</button>
+        <button data-name="sports jersey">Sports Jersey</button>
+        <button data-name="sports ball">Sports Ball</button>
+        <button data-name="sports bat">Sports Bat</button>
+        <button data-name="sports bag">Sports Bag</button>
+        <button data-name="fitness kit">Sports Shoe</button>
+        <button data-name="gym equivements">Gym equipments</button>
+        <button data-name="boxing kit">Boxing kit</button>
+        <button data-name="swimming kit">Swimming kit</button>
+        <button data-name="skating kit">Skating kit</button>
+        <button data-name="shooting kit">Shooting kit</button>
+       </div>
+
+       <div class="filterable_cards">
+        <div class="card" data-name="sports jersey">
+            <img src="https://mir-s3-cdn-cf.behance.net/projects/404/9c3b8d185041637.Y3JvcCw1MDAwLDM5MTAsMCw1NDQ.jpg" alt="sports jersey" />
+            <div class="card_body">
+                <h6 class="card_title">Sports Jersey</h6>
+                <p class="card_text">Buy unique jersey...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>100$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports jersey">
+            <img src="https://m.media-amazon.com/images/I/51ZbyC3JRjL.AC_UY1100.jpg" alt="sports jersey" />
+            <div class="card_body">
+                <h6 class="card_title">Cricket Jersey</h6>
+                <p class="card_text">Buy fantastic jersey...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>150$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports jersey">
+            <img src="https://www.combatsports.com/media/catalog/product/cache/a9f3efab3a7af4335dc3273176afcdef/e/o/eofitr2_v1.jpg" alt="sports jersey" />
+            <div class="card_body">
+                <h6 class="card_title">Boxing Jersey</h6>
+                <p class="card_text">Buy unique jersey...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>160$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports ball">
+            <img src="https://m.media-amazon.com/images/I/716n-9efx9L.AC_UF894,1000_QL80.jpg" alt="sports ball" />
+            <div class="card_body">
+                <h6 class="card_title">Basket Ball</h6>
+                <p class="card_text">Buy fantastic ball...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>50$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports ball">
+            <img src="https://www.sportsuncle.com/image/cache/catalog/images/ajsports/practicex12-1200x1200.webp" alt="sports ball" />
+            <div class="card_body">
+                <h6 class="card_title">Cricket Ball</h6>
+                <p class="card_text">Buy unique ball...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>100$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports ball">
+            <img src="https://i0.wp.com/www.bioparksociety.org/store/wp-content/uploads/2020/03/Tennis-balls.jpg?fit=694%2C644&ssl=1" alt="sports ball" />
+            <div class="card_body">
+                <h6 class="card_title">Tennis Ball</h6>
+                <p class="card_text">Buy fantastic ball...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>170$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports bat">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4DiozvcDjBf_QbyPxj2371hen7YkV1u_AgjchK6SAgDxbMKSW5DUQnuloOIsULv3yNg8&usqp=CAU" alt="sports bat" />
+            <div class="card_body">
+                <h6 class="card_title">Cricket Bat</h6>
+                <p class="card_text">Buy unique bat...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>200$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports bat">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/4/TS/MN/AM/112222711/racket-500x500.jpg" alt="sports bat" />
+            <div class="card_body">
+                <h6 class="card_title">Hockey Bat</h6>
+                <p class="card_text">Buy fantastic bat...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>180$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports bat">
+            <img src="https://i.etsystatic.com/30077365/r/il/8a5515/6020715543/il_1080xN.6020715543_7vej.jpg" alt="sports bat" />
+            <div class="card_body">
+                <h6 class="card_title">Tennis Bat</h6>
+                <p class="card_text">Buy unique bat...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>190$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports bag">
+            <img src="https://5.imimg.com/data5/CD/PG/MA/SELLER-85804116/sport-kit-bags.jpg" alt="sports bag" />
+            <div class="card_body">
+                <h6 class="card_title">Sports Bag</h6>
+                <p class="card_text">Buy fantastic bag...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>250$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports bag">
+            <img src="https://media.istockphoto.com/id/185512007/photo/basketball-shoes-and-gym-bag.jpg?s=612x612&w=0&k=20&c=31E27TFkXOjruG_iyXndHHl2Zh4QXkBGoiroDlbDj2U=" alt="sports bag" />
+            <div class="card_body">
+                <h6 class="card_title">Basket Bag</h6>
+                <p class="card_text">Buy unique bag...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>140$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports bag">
+            <img src="https://m.media-amazon.com/images/I/51cgcuR7ftL.AC_UY1100.jpg" alt="sports bag" />
+            <div class="card_body">
+                <h6 class="card_title">Shoe Bag</h6>
+                <p class="card_text">Buy fantastic bag...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>130$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports shoe">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvD6-MIRTkTeWU0RgeFdlGMeDWCk4Ga3axOg&s" alt="sports shoe" />
+            <div class="card_body">
+                <h6 class="card_title">Sports Shoe</h6>
+                <p class="card_text">Buy unique shoes...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>400$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports shoe">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/51r7y7DzQHL.AC_SR462,693.jpg" alt="sports shoe" />
+            <div class="card_body">
+                <h6 class="card_title">Sports Shoe</h6>
+                <p class="card_text">Buy unique shoes...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>440$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="sports shoe">
+            <img src="https://e0.pxfuel.com/wallpapers/652/182/desktop-wallpaper-sports-shoes-running-shoes-thumbnail.jpg" alt="sports shoe" />
+            <div class="card_body">
+                <h6 class="card_title">Sports shoe</h6>
+                <p class="card_text">Buy unique shoes...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>500$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="gym equivements">
+            <img src="https://media.istockphoto.com/id/1391410249/photo/sports-and-gym-activities.jpg?s=612x612&w=0&k=20&c=1S-hAmT-CkRtdYV_hcKi1lZdQkXAN_mCy3ebIXlUEnE=" alt="gym equivements" />
+            <div class="card_body">
+                <h6 class="card_title">Gym equipments</h6>
+                <p class="card_text">Buy fantastic equivements...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>300$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="gym equivements">
+            <img src="https://m.media-amazon.com/images/I/61-o+SYwB9L.AC_UF1000,1000_QL80.jpg" alt="gym equivements" />
+            <div class="card_body">
+                <h6 class="card_title">Gym equipments</h6>
+                <p class="card_text">Buy unique equivements...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>320$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="gym equivements">
+            <img src="https://m.media-amazon.com/images/I/51o1a6rIGoL.jpg" alt="gym equivements" />
+            <div class="card_body">
+                <h6 class="card_title">Gym equipments</h6>
+                <p class="card_text">Buy fantastic equivements...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>260$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        
+        <div class="card" data-name="boxing kit">
+            <img src="https://s.alicdn.com/@sc04/kf/U259797930eac41b0a5cf67aad45de16dg.jpg_200x200.jpg" alt="boxing kit" />
+            <div class="card_body">
+                <h6 class="card_title">Boxing punching bag</h6>
+                <p class="card_text">Buy fantastic kit...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>120$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="boxing kit">
+            <img src="https://i.ebayimg.com/images/g/YRcAAOSwq9BhDabt/s-l400.jpg" alt="boxing kit" />
+            <div class="card_body">
+                <h6 class="card_title">Boxing gloves</h6>
+                <p class="card_text">Buy unique kit...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>450$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="boxing kit">
+            <img src="https://images-cdn.ubuy.co.in/6342303448a05042b21bb6f7-windfall-boxing-head-guard-faux-leather.jpg" alt="boxing kit" />
+            <div class="card_body">
+                <h6 class="card_title">Boxing helmet</h6>
+                <p class="card_text">Buy fantastic kit...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>420$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="swimming kit">
+            <img src="https://m.media-amazon.com/images/I/41WV-krCHlL.AC.jpg" alt="swimming kit" />
+            <div class="card_body">
+                <h6 class="card_title">Swimming cap</h6>
+                <p class="card_text">Buy unique kit...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>190$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="swimming kit">
+            <img src="https://m.media-amazon.com/images/I/71MBaMQSQ8L.AC_UY1000.jpg" alt="swimming kit" />
+            <div class="card_body">
+                <h6 class="card_title">Google glass</h6>
+                <p class="card_text">Buy fantastic kit...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>230$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="swimming kit">
+            <img src="https://m.media-amazon.com/images/I/61pyuL7jgRL.AC_UY350.jpg" alt="swimming kit" />
+            <div class="card_body">
+                <h6 class="card_title">Swimming suit kit</h6>
+                <p class="card_text">Buy unique kit...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>460$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="skating kit">
+            <img src="https://media.istockphoto.com/id/1406887319/photo/a-pair-of-inline-skates-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=nBO_SMv4AHVtKKViKcmqug7fH4OgOsSG7w0_nCbNQtU=" alt="skating kit" />
+            <div class="card_body">
+                <h6 class="card_title">Skating kit</h6>
+                <p class="card_text">Buy fantastic kit...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>500$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="skating kit">
+            <img src="https://m.media-amazon.com/images/I/518Rj-sMsXS.AC_UF350,350_QL80.jpg" alt="skating kit" />
+            <div class="card_body">
+                <h6 class="card_title">Helmet kit</h6>
+                <p class="card_text">Buy unique kit....</p>
+                <div class="d-flex justify-content-around">
+                    <h3>520$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="skating kit">
+            <img src="https://skatersedge.co.nz/wp-content/uploads/2017/11/gripping-gloves-edea-skates-2.jpg" alt="skating kit" />
+            <div class="card_body">
+                <h6 class="card_title">Gloves kit</h6>
+                <p class="card_text">Buy fantastic kit...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>540$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="shooting kit">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/2/CM/QN/DE/11503689/cotton-canvas-sports-jackets-500x500.jpg" alt="shooting kit" />
+            <div class="card_body">
+                <h6 class="card_title">Shooting suit</h6>
+                <p class="card_text">Buy unique kit...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>550$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="shooting kit">
+            <img src="https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20230117045251.jpg" alt="shooting kit" />
+            <div class="card_body">
+                <h6 class="card_title">Shooting helmet</h6>
+                <p class="card_text">Buy fantastic kit...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>590$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+        <div class="card" data-name="shooting kit">
+            <img src="https://www.gunsandammo.com/files/2016/08/gloves-using-shooting-2.jpg" alt="shooting kit" />
+            <div class="card_body">
+                <h6 class="card_title">Shooting gloves</h6>
+                <p class="card_text">Buy unique kit...</p>
+                <div class="d-flex justify-content-around">
+                    <h3>600$</h3>
+                    <button class="btn btn-info" style="color: white;">Add to Cart</button>
+                   </div>
+            </div>
+        </div>
+       </div>
+       
+    </div>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: rgb(232, 222, 207);
+}
+.container{
+    position: relative;
+    max-width: 1350px;
+    width:100%;
+    padding: 20px;
+    margin:50px auto;
+}
+.filter_buttons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #dd85ab; 
+    border: none;
+    border-radius: 6px;
+    cursor:pointer;
+    box-shadow: 0 0 10px;
+}
+button.active{
+    background: #d75749;
+    color: #fff;
+    box-shadow: 0 0 10px;
+}
+.filterable_cards{
+    display: flex;
+    margin-top: 25px;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.card{
+    flex-grow: 1;
+    flex-basis: 300px;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.card.hide{
+    display: none;
+}
+.card img{
+    width:100%;
+    height:210px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+.card_body{
+    padding: 15px 20px 20px;
+}
+.card_title{
+    font-size: 20px;
+    font-weight: 500;
+    color:#333;
+}
+.card_text{
+    font-size: 18px;
+    color:#333;
+}
+.btn-info{
+    border-radius: 50px;
+    width: 300px;
+}
+.btn-info:hover{
+    background-color: black;
+}
+h3{
+    color: rgb(0,90,220) ;
+}
+</style>
+<script>
+    const filterButtons=document.querySelectorAll(".filter_buttons button");
+const filterableCards=document.querySelectorAll(".filterable_cards .card");
+const filterCards= e =>{
+    document.querySelector(".active").classList.remove("active");
+    e.target.classList.add("active");
+    filterableCards.forEach(card=>{
+        card.classList.add("hide");
+        if(card.dataset.name===e.target.dataset.name||e.target.dataset.name==="all"){
+            card.classList.remove("hide");
+        }
+    });
+};
+
+filterButtons.forEach(button=>button.addEventListener("click",filterCards));
+console.log(filterButtons,filterableCards);
+</script>
+</html>

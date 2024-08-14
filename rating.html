@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/c425"></script>
+</head>
+<body>
+
+    <div class="container">
+        
+       
+        <div class="feedbackbox">
+            <center>
+                <h1>Rating</h1>
+                </center>
+            <div class="emoji">
+                <div id="emoji">
+                    <img src="https://cdn.pixabay.com/photo/2020/12/19/02/50/emoji-5843434_1280.png">
+                    <img src="https://w7.pngwing.com/pngs/269/287/png-transparent-smile-emoji-sad-sullen-sad-face-bored-sadness-yellow-message-whatsapp-thumbnail.png">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCN2vDOcUbbEplxE25CmwQc1xTy7u-bmc3ZQ&s">
+                    <img src="https://icon2.cleanpng.com/20180328/slw/avdk6lmug.webp">
+                    <img src="https://png.pngtree.com/png-clipart/20220102/original/pngtree-happy-face-emoji-with-love-eyes-fav-icon-smiley-png-image_6990998.png">
+                </div>
+            </div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        var stars=document.getElementsByClassName("fas");
+        var emoji=document.getElementById("emoji");
+
+        stars[0].onclick=function(){
+            stars[0].style.color="#ffd93b";
+            stars[1].style.color="#e4e4e4";
+            stars[2].style.color="#e4e4e4";
+            stars[3].style.color="#e4e4e4";
+            stars[4].style.color="#e4e4e4";
+            emoji.style.transform="translateX(0)";
+        }
+        stars[1].onclick=function(){
+            stars[0].style.color="#ffd93b";
+            stars[1].style.color="#ffd93b";
+            stars[2].style.color="#e4e4e4";
+            stars[3].style.color="#e4e4e4";
+            stars[4].style.color="#e4e4e4";
+            emoji.style.transform="translateX(-100px)";
+        }
+        stars[2].onclick=function(){
+            stars[0].style.color="#ffd93b";
+            stars[1].style.color="#ffd93b";
+            stars[2].style.color="#ffd93b";
+            stars[3].style.color="#e4e4e4";
+            stars[4].style.color="#e4e4e4";
+            emoji.style.transform="translateX(-200px)";
+        }
+        stars[3].onclick=function(){
+            stars[0].style.color="#ffd93b";
+            stars[1].style.color="#ffd93b";
+            stars[2].style.color="#ffd93b";
+            stars[3].style.color="#ffd93b";
+            stars[4].style.color="#e4e4e4";
+            emoji.style.transform="translateX(-300px)";
+        }
+        stars[4].onclick=function(){
+            stars[0].style.color="#ffd93b";
+            stars[1].style.color="#ffd93b";
+            stars[2].style.color="#ffd93b";
+            stars[3].style.color="#ffd93b";
+            stars[4].style.color="#ffd93b";
+            emoji.style.transform="translateX(-400px)";
+        }
+    </script>
+</body>
+
+
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,#ff4b4b,#d12280);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedbackbox{
+    background: white;
+    padding:50px 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emoji{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background: white;
+    margin-bottom: 30px;
+    overflow:hidden;
+}
+.emoji img{
+    width:80px;
+    margin:0 10px;
+    border-radius: 200px;
+}
+#emoji{
+    display: flex;
+    align-items: center;
+    transform:translateX(-400px);
+    transition: 0.3s;
+}
+.rating .fas{
+    font-size: 40px;
+    color:#e4e4e4;
+    cursor:pointer;
+}
+</style>
+</html>
